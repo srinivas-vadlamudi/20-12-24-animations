@@ -97,7 +97,7 @@ img {
         width: fit-content;
     }
     .trans:hover ~ .box{
-        transform: translate(80px,80px);
+        transform: translate(70px,70px);
       }
       .scale:hover ~ .box {
           transform: scale(2.5); 
