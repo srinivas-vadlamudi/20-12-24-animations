@@ -34,17 +34,17 @@
     transition: transform 0.4s linear;
     margin:65px auto;
 }
-.trans:active ~ .box{
+.trans:hover ~ .box{
   transform: translate(50px,50px);
 }
-.scale:active ~ .box {
+.scale:hover ~ .box {
     transform: scale(1.8); 
 }
-.rotate:active ~ .box {
+.rotate:hover ~ .box {
     transform: rotate(360deg); 
 }
-.skew:active ~ .box {
-    transform: skew(70deg, 70deg); 
+.skew:hover ~ .box {
+    transform: skew(30deg, 30deg); 
 }
 
 /* fan speed  */
