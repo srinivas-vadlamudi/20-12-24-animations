@@ -96,4 +96,16 @@ img {
     .main-container>input{
         width: fit-content;
     }
+    .trans:hover ~ .box{
+        transform: translate(80px,80px);
+      }
+      .scale:hover ~ .box {
+          transform: scale(2.5); 
+      }
+      .rotate:hover ~ .box {
+          transform: rotate(360deg); 
+      }
+      .skew:hover ~ .box {
+          transform: skew(60deg, 60deg); 
+      }
 }
