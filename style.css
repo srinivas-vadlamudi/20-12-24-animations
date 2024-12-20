@@ -31,20 +31,20 @@
     border: 2px solid;
     align-self: center;
     background-color: rgb(29, 186, 189);
-    transition: 0.4s ease;
+    transition: transform 0.4s linear;
     margin:65px auto;
 }
-.trans:hover ~ .box{
+.trans:active ~ .box{
   transform: translate(50px,50px);
 }
-.scale:hover ~ .box {
-    transform: scale(1.5); 
+.scale:active ~ .box {
+    transform: scale(1.8); 
 }
-.rotate:hover ~ .box {
-    transform: rotate(180deg); 
+.rotate:active ~ .box {
+    transform: rotate(360deg); 
 }
-.skew:hover ~ .box {
-    transform: skew(40deg, 40deg); 
+.skew:active ~ .box {
+    transform: skew(70deg, 70deg); 
 }
 
 /* fan speed  */
