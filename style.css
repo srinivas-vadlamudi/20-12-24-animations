@@ -96,9 +96,6 @@ img {
     .main-container>input{
         width: fit-content;
     }
-    .trans:hover ~ .box{
-        transform: translate(55px,55px);
-      }
       .scale:hover ~ .box {
           transform: scale(2.5); 
       }
